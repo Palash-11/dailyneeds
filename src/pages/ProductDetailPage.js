@@ -43,7 +43,7 @@ function ProductDetailPage({ addToCart }) {
             <img
               src={product.image}
               alt={product.name}
-              className="w-full h-80 object-contain rounded"
+              className="w-200 h-72 object-contain rounded"
             />
           ) : (
             <div className="flex h-80 items-center justify-center bg-gray-100 text-gray-400 rounded">

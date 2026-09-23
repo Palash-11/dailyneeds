@@ -54,12 +54,12 @@ function ProductListPage({ addToCart }) {
             <div>
               {product.image ? (
                 <img
-                  className="h-40 w-full object-cover rounded"
+                  className="h-100 w-full object-cover rounded"
                   src={product.image}
                   alt={product.name}
                 />
               ) : (
-                <div className="flex h-40 items-center justify-center bg-gray-100 text-gray-400 rounded">
+                <div className="flex h-100 items-center justify-center bg-gray-100 text-gray-400 rounded">
                   No Image
                 </div>
               )}
